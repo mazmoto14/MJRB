@@ -53,3 +53,54 @@
 // // テンプレート文字列を用いた方法
 // const message2 = `私の名前は${name}です。年齢は${age}です`;
 // console.log(message2);
+
+/**
+ * アロー関数
+ */
+// function func1(str) {
+//   return str;
+// }
+
+// const func1 = function (str) {
+//   return str;
+// };
+// console.log(func1("func1ですよ"));
+
+// アロー関数
+// const func2 = (str) => {
+//   return str;
+// }
+
+// console.log(func2('func2ですよ'));
+
+// const func3 = (num1, num2) => {
+//   return num1 + num2;
+// };
+
+// console.log(func3(10, 20));
+
+/**
+ * 分割代入
+ */
+// const myProfile = {
+//   name: 'だいすけ',
+//   age: 40,
+// };
+
+// const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}です。`;
+// console.log(message1);
+
+// const { name, age } = myProfile;
+
+// const message2 = `名前は${name}です。年齢は${age}です。`;
+// console.log(message1);
+
+// const myProfile = ["じゃけえ", 28];
+
+// const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です}`;
+// console.log(message3);
+
+// const [name, age] = myProfile;
+
+// const message4 = `名前は${name}です。年齢は${age}です。`;
+// console.log(message4);
