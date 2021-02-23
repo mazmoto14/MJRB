@@ -104,3 +104,24 @@
 
 // const message4 = `名前は${name}です。年齢は${age}です。`;
 // console.log(message4);
+
+// const myProfile = {
+//   name: 'だいすけ',
+//   age: 40,
+// };
+
+// const {name, age} = myProfile;
+
+// const messageTest = `私の名前は${name}です。年齢は${age}です`;
+// console.log(messageTest);
+
+/**
+ * デフォルト値、引数など
+ */
+// const sayHello = (name = 'ゲスト') => console.log(`こんにちは${name}さん`);
+
+// sayHello();
+
+/**
+ * スプレッド構文
+ */
